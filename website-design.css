@@ -629,21 +629,21 @@
         background-color: #6e7072;
     }
     .account1, .account2, .account3, .account4 {
-        border: none; /* Add a border for style */
-        padding: 10px; /* Add padding for space inside the div */
-        text-align: center; /* Center the content */
+        border: none;
+        padding: 10px;
+        text-align: center;
         display: inline-block;
     }
 
     .image-link {
-        text-decoration: none; /* Remove underlines from links */
+        text-decoration: none;
     }
 
     .image {
-        width: 100px; /* Set a specific width for the images */
-        height: auto; /* Maintain aspect ratio of images */
-        display: block; /* Ensure images don't have extra space below */
-        margin: 0 auto; /* Center the images within their containers */
+        width: 100px; 
+        height: auto;
+        display: block;
+        margin: 0 auto;
         transition: 0.3s ease-in;
     }
     .image:hover {
@@ -962,8 +962,8 @@
         /*about section*/
         .about_info {
             position: relative;
-            top: 10px; /* Adjust this value according to the height of your navigation bar */
-            z-index: 1; /* Set a lower value than the navigation's z-index */
+            top: 10px; 
+            z-index: 1;
         }
         .about_info h2 {
             position: relative;
@@ -1415,7 +1415,7 @@
         display: inline-block;
         display: flex;
         flex-direction: row;
-        margin-right: 35px; /* Adjust the margin as needed */
+        margin-right: 35px; 
         position: relative;
         top: 27%;
         left: -65%;
@@ -1445,10 +1445,10 @@
         }
 
         .image {
-            width: 50px; /* Set a specific width for the images */
-            height: auto; /* Maintain aspect ratio of images */
-            display: block; /* Ensure images don't have extra space below */
-            margin: 0 auto; /* Center the images within their containers */
+            width: 50px;
+            height: auto; 
+            display: block;
+            margin: 0 auto;
             transition: 0.3s ease-in;
         }
         .image:hover {
